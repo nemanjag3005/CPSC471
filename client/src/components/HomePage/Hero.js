@@ -3,78 +3,58 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="flex min-h-full">
-        <div className="flex flex-1 flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
-          <div className="mx-auto w-full max-w-sm lg:w-96">
-            <div>
-              <img
-                className="h-12 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt="Your Company"
-              />
-              <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900">
-                Sign in to your account
-              </h2>
-            </div>
+      <div className="relative overflow-hidden bg-gray-900">
+        <div className="mx-auto max-w-7xl">
+          <div className="relative z-10 bg-gray-900 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
+            <svg
+              className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-gray-900 lg:block"
+              fill="currentColor"
+              viewBox="0 0 100 100"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            >
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
 
-            <div className="mt-8">
-              <div className="mt-6">
-                <form action="#" method="POST" className="space-y-6">
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-sm font-medium text-gray-700"
+            <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+              <div className="sm:text-center lg:text-left">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl md:text-6xl">
+                  <span className="block xl:inline">Going to the gym</span>{" "}
+                  <span className="block text-red-600 xl:inline">
+                    revolutionized.
+                  </span>
+                </h1>
+                <p className="mt-3 text-base text-gray-300 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
+                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
+                  occaecat fugiat aliqua.
+                </p>
+                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                  <div className="rounded-md shadow">
+                    <a
+                      href="#"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-600 md:py-4 md:px-10 md:text-lg"
                     >
-                      Email address
-                    </label>
-                    <div className="mt-1">
-                      <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        autoComplete="email"
-                        required
-                        className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                      />
-                    </div>
+                      Sign In
+                    </a>
                   </div>
-
-                  <div className="space-y-1">
-                    <label
-                      htmlFor="password"
-                      className="block text-sm font-medium text-gray-700"
+                  <div className="mt-3 sm:mt-0 sm:ml-3">
+                    <a
+                      href="#"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-gray-600 px-8 py-3 text-base font-medium text-red-600 hover:bg-gray-200 md:py-4 md:px-10 md:text-lg"
                     >
-                      Password
-                    </label>
-                    <div className="mt-1">
-                      <input
-                        id="password"
-                        name="password"
-                        type="password"
-                        autoComplete="current-password"
-                        required
-                        className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                      />
-                    </div>
+                      Sign Up
+                    </a>
                   </div>
-
-                  <div>
-                    <button
-                      type="submit"
-                      className="flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                    >
-                      Sign in
-                    </button>
-                  </div>
-                </form>
+                </div>
               </div>
-            </div>
+            </main>
           </div>
         </div>
-        <div className="relative hidden w-0 flex-1 lg:block">
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:top-12">
           <img
-            className="absolute inset-0 h-full w-full object-cover"
-            src="https://images.unsplash.com/photo-1505904267569-f02eaeb45a4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1908&q=80"
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
+            src="https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
           />
         </div>

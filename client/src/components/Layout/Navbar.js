@@ -5,7 +5,7 @@ const Navbar = ({ isOpen, toggle }) => {
 
   return (
     <nav ref={navRef} className="bg-gray-800 ">
-      <div className="container px-2 mx-auto h-16 flex flex-nowrap justify-between items-center max-w-8xl border-b border-gray-600">
+      <div className="container px-2 mx-auto h-16 flex flex-nowrap justify-between items-center max-w-8xl">
         <button
           onClick={toggle}
           type="button"
@@ -27,7 +27,7 @@ const Navbar = ({ isOpen, toggle }) => {
           </svg>
         </button>
         <h1 className="text-red-600 cursor-pointer font-bold text-xl ml-auto lg:ml-0">
-          MUSCLE GYM
+          <a href="/">MUSCLE GYM</a>
         </h1>
         <div className="hidden lg:ml-32 z-50 lg:block lg:self-stretch">
           <div className="h-full flex space-x-8">
@@ -61,7 +61,7 @@ const Navbar = ({ isOpen, toggle }) => {
             </a>
             <span className="h-6 w-px bg-gray-600" aria-hidden="true" />
             <a
-              href="/registration"
+              href="/register"
               className="text-sm font-medium text-gray-200 hover:text-red-600"
             >
               Register
