@@ -1,4 +1,5 @@
 import React from "react";
+import Fairy from "./Fairy";
 import FAQ from "./FAQ";
 import Hero from "./Hero";
 import Hero2 from "./Hero2";
@@ -13,6 +14,7 @@ const Home = () => {
       <Locations />
       <Memberships />
       <FAQ />
+      <Fairy />
     </>
   );
 };
