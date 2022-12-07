@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero2 = () => {
   return (
-    <div className="overflow-hidden bg-gray-800 pt-12">
+    <div className="overflow-hidden bg-gray-800">
       <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8 lg:py-40">
         <svg
           className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
@@ -53,44 +53,46 @@ const Hero2 = () => {
                 </p>
               </dt>
               <dd className="mt-2 text-base text-gray-500">
-                Consequuntur omnis dicta cumque, inventore atque ab dolores
-                aspernatur tempora ab doloremque.
+                With rates starting at just $79.99 monthly, our gym is providing
+                value found nowhere else
               </dd>
             </div>
             <div>
               <dt>
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-red-500 text-white"></div>
                 <p className="mt-6 text-lg font-semibold leading-8 text-gray-200">
-                  Competitive rates
+                  Member Tracking
                 </p>
               </dt>
               <dd className="mt-2 text-base text-gray-500">
-                Consequuntur omnis dicta cumque, inventore atque ab dolores
-                aspernatur tempora ab doloremque.
+                Without member tracking feature, you can check how busy each
+                location is ensuring that if you don’t want crowds, they won’t
+                be there.
               </dd>
             </div>
             <div>
               <dt>
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-red-500 text-white"></div>
                 <p className="mt-6 text-lg font-semibold leading-8 text-gray-200">
-                  Competitive rates
+                  Expanded Locations
                 </p>
               </dt>
               <dd className="mt-2 text-base text-gray-500">
-                Consequuntur omnis dicta cumque, inventore atque ab dolores
-                aspernatur tempora ab doloremque.
+                With our ever-expanding list of location, theres a gym nearby no
+                matter where in the city you are in!
               </dd>
             </div>
             <div>
               <dt>
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-red-500 text-white"></div>
                 <p className="mt-6 text-lg font-semibold leading-8 text-gray-200">
-                  Competitive rates
+                  New Machines
                 </p>
               </dt>
               <dd className="mt-2 text-base text-gray-500">
-                Consequuntur omnis dicta cumque, inventore atque ab dolores
-                aspernatur tempora ab doloremque.
+                As a startup- gym, we have invested in new machines and weights
+                meaning your workout will be the best it could possibly be. All
+                we need from you is motivation
               </dd>
             </div>
           </dl>
